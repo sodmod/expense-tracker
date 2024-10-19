@@ -1,0 +1,18 @@
+/* General button styling */
+.button {
+  -fx-font-size: 16px;
+  -fx-background-color: #0e2016;
+  -fx-text-fill: white;
+  -fx-padding: 10;
+  -fx-background-radius: 5;
+  -fx-cursor: hand;
+  -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 5, 0.3, 0, 0);
+  -fx-transition: all 0.4s ease-in-out;
+}
+
+/* Hover effect for buttons */
+.button:hover {
+  -fx-background-color: black; /* Change the color on hover */
+  -fx-text-fill: #fff;  /* Change the text color if needed */
+  -fx-transition: all 0.4s ease-in-out; /* Smooth transition */
+}

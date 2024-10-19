@@ -1,0 +1,20 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.badmus.smartexpensetrancker.controller.ExpenseTrackerController"
+      style="-fx-padding: 20; -fx-background-color: whitesmoke; -fx-fill-width: true; -fx-pref-width: 650; -fx-pref-height: 600;"
+      spacing="10" alignment="CENTER" stylesheets="@style.css">
+
+
+    <Label text="Search &amp; Filter Expenses" style="-fx-font-size: 24px; -fx-font-weight: bold;" VBox.vgrow="NEVER"/>
+
+    <TextField fx:id="searchField" promptText="Enter keyword/category to search"/>
+
+    <DatePicker fx:id="datePicker" promptText="Select a date" style="-fx-pref-width: 150"/>
+
+    <Button text="Search" onAction="#handleSearch" style="-fx-pref-width: 150" styleClass="button"/>
+
+    <ListView fx:id="resultsListView" style="-fx-font-size: 13;"/>
+
+    <Button text="Back" onAction="#handleBackToMainView" styleClass="button" style="-fx-pref-width: 150"/>
+</VBox>
