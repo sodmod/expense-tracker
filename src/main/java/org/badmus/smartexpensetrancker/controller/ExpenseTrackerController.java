@@ -143,6 +143,10 @@ public class ExpenseTrackerController {
 
   @FXML
   public void handleFilterAction() {
+    timeFrameGroup = new ToggleGroup();
+    dailyRadio.setToggleGroup(timeFrameGroup);
+    weeklyRadio.setToggleGroup(timeFrameGroup);
+    monthlyRadio.setToggleGroup(timeFrameGroup);
     String timeFrame = "";
     if (dailyRadio.isSelected()) {
       timeFrame = "daily";

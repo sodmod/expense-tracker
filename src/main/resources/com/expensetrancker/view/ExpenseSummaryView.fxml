@@ -10,9 +10,12 @@
            VBox.vgrow="NEVER"/>
 
     <HBox spacing="10">
-        <RadioButton fx:id="dailyRadio" text="Daily" toggleGroup="$timeFrameGroup" onAction="#handleFilterAction"/>
-        <RadioButton fx:id="weeklyRadio" text="Weekly" toggleGroup="$timeFrameGroup" onAction="#handleFilterAction"/>
-        <RadioButton fx:id="monthlyRadio" text="Monthly" toggleGroup="$timeFrameGroup" onAction="#handleFilterAction"/>
+        <RadioButton fx:id="dailyRadio" text="Daily" toggleGroup="$timeFrameGroup" onAction="#handleFilterAction"
+                     mnemonicParsing="false"/>
+        <RadioButton fx:id="weeklyRadio" text="Weekly" toggleGroup="$timeFrameGroup" onAction="#handleFilterAction"
+                     mnemonicParsing="false"/>
+        <RadioButton fx:id="monthlyRadio" text="Monthly" toggleGroup="$timeFrameGroup" onAction="#handleFilterAction"
+                     mnemonicParsing="false"/>
     </HBox>
 
     <ListView fx:id="summaryListView"/>
