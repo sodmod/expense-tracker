@@ -4,5 +4,5 @@ Category: Food, Description: , Amount: 5000.0, Date: 2024-10-17
 Category: DSDAD, Description: ADADFA, Amount: 4922.0, Date: 2024-10-17
 Category: Food, Description: sdaf, Amount: 7000.0, Date: 2024-10-17
 Category: Food, Description: SDADA, Amount: 900.0, Date: 2024-10-26
-Category: dick, Description: fuck, Amount: 8000.0, Date: 2024-10-25
 Category: Tunde, Description: Corper, Amount: 5000.0, Date: 2024-10-27
+Category: Food, Description: eat with fr, Amount: 9000.0, Date: 2024-10-27
